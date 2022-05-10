@@ -1,0 +1,68 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  html{
+      font-size: 62.5%;
+  }
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .flex{
+      display: flex;
+  }
+  div{
+      width: 15%;
+  }
+
+body *{
+    border: 3px solid black;
+}
+
+meter{
+    height: 4vh;
+    width: 14vw;    
+}
+
+.mpBar::-webkit-meter-optimum-value{
+background: blue
+}
+
+.hidden{
+    display: none;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.clicked { box-shadow:0 0 5px rgba(255, 0, 0, .5) }
+
+
+/* .select:hover{
+    border-bottom: 5px solid black;
+    background-color: rgb(193, 228, 240);
+    cursor: pointer;
+}
+
+.selectPlayer:hover{
+    border-bottom: 5px solid black;
+    background-color: rgb(65, 159, 190);
+    cursor: pointer;
+} */
+
+img:focus{
+    background-color: rgb(65, 159, 190);
+    outline: 2px solid blue;
+}

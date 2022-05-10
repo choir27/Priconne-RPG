@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel = 'stylesheet' href = css/style.css>
+</head>
+<body>
+	<header>
+		<h1>Turn:<div id = 'turn'>1</div></h1>
+	  </header>
+	  <section class = 'flex'>
+		<div><img class = 'player1' id = 'koko' src = 'img/Kokkoro-removebg-preview.png' tabindex="0">
+			<meter id="kokoHP"min="0" max="3500" value="3500"></meter>
+			<meter class = 'mpBar' id="kokoMP"min="0" max="150" value="150"></meter>
+			<button class = 'skills1 hidden kokoAttack'>Attack</button><button class = 'skills2 hidden' id = 'aurora'>Aurora Veil</button><button class = 'skills3 hidden' id = 'healing'>Healing Revelation</button><button id = 'kokoUlt' class = 'ult1 hidden'>Ultimate</button>
+		</div>
+
+		<div><img class = 'player2' id = 'kyaru' src = 'img/Karyle-removebg-preview.png' tabindex="0">
+			<meter id="kyaruHP"min="0" max="2000" value="2000"></meter>
+			<meter class = 'mpBar' id="kyaruMP"min="0" max="500" value="500"></meter>
+			<button class = 'hit skills4 hidden kyaruAttack'>Attack</button><button class = 'skills5 hidden' id = 'shadowBullet'>Shadow Bullet</button><button class = 'skills6 hidden'  id = 'grimBurst'>Grim Burst</button><button id = 'kyaruUlt'class = 'ult2 hidden'>Ultimate</button>
+		</div>
+
+		<div>
+			<img class = 'player3' id = 'peko' src = 'img/peko_chibi-final.png' tabindex="0">	  
+			<meter id="pekoHP"min="0" max="4500" value="4500"></meter>
+			<meter class = 'mpBar' id="pekoMP"min="0" max="250" value="250"></meter>
+			<button class = 'skills7 hidden pekoAttack'>Attack</button><button class = 'hidden skills8' id = 'lunchTime'>Lunch Time</button><button class = 'hidden skills9' id ='princessStrike'>Princess Strike</button><button id = 'pekoUlt' class = 'ult3 hidden'>Ultimate</button>
+		</div>
+
+		<div><img id = 'enemy1' src = 'img/enemy-removebg-preview.png' tabindex="0">
+			<meter id="enemy1HP"min="0" max="3500" value="3500"></meter>
+			<button class = 'hidden'>Select</button>
+		</div>
+		<div><img  id = 'enemy2'src = 'img/enemy2-removebg-preview.png' tabindex="0">
+			<meter id="enemy2HP"min="0" max="3000" value="3000"></meter>
+			<button class = 'hidden'>Select</button>
+		</div>
+		<div><img id = 'enemy3' src = 'img/enemy1-removebg-preview.png' tabindex="0">
+			<meter id="enemy3HP"min="0" max="2500" value="2500"></meter>
+			<button class =  'hit hidden'>Select</button>
+		</div>
+		</section>
+		<h2>Choose an action!</h2>
+
+	  <!-- <script src = 'js/main.js'></script> -->
+	  <script src = 'js/main1.js'></script>
+
+</body>
+</html>
